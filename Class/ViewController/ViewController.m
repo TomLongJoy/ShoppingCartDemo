@@ -37,6 +37,14 @@
         _shoppingCartTableView.delegate = self;
         _shoppingCartTableView.dataSource = self;
         _shoppingCartTableView.estimatedRowHeight = 0;
+        /**
+         *default is NO. Controls whether multiple rows can be selected simultaneously
+         *默认是NO，控制是否同时多行可选（大意是：默认NO，是否可以同时多行操作<选中，删除等操作>）
+         *
+         * allowsMultipleSelection == YES;多选
+         * allowsMultipleSelection == NO;单选
+         */
+        _shoppingCartTableView.allowsMultipleSelection = YES;
         _shoppingCartTableView.tableFooterView = [UIView new];
     }
     return _shoppingCartTableView;
@@ -86,7 +94,7 @@
         cell = [[ShopCartTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     cell.reasonLabel.text = listModel.reasonName;
-    cell.selectedButton.selected = listModel.selectedStatus;
+    cell.selected = !cell.selected;
     return cell;
 }
 #pragma mark -- UITableviewDelegate
@@ -94,12 +102,19 @@
     
     return 45;
 }
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    ShopGoodsListModel *listModel = self.model.reasonlist[indexPath.row];
-    listModel.selectedStatus = !listModel.selectedStatus;
-//    [self.shoppingCartTableView reloadData];
-    ShopCartTableViewCell *cell  = [tableView cellForRowAtIndexPath:indexPath];
-    cell.selectedButton.selected = listModel.selectedStatus;
+    /**
+     *模拟--付款按钮点击
+     *self.shoppingCartTableView == tableview
+     */
+    NSArray *indexPathArray = self.shoppingCartTableView.indexPathsForSelectedRows;
+    for (NSInteger i=0; i<indexPathArray.count; i++) {
+        NSIndexPath *indexPath = indexPathArray[i];
+        NSInteger   selectedRow = indexPath.row;
+        ShopGoodsListModel  *listModel = self.model.reasonlist[selectedRow];
+        NSLog(@"[%ld:%@]",selectedRow,listModel.reasonName);
+    }
 }
 @end
 
