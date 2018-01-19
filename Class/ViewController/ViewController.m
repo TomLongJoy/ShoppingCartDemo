@@ -97,7 +97,9 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ShopGoodsListModel *listModel = self.model.reasonlist[indexPath.row];
     listModel.selectedStatus = !listModel.selectedStatus;
-    [self.shoppingCartTableView reloadData];
+//    [self.shoppingCartTableView reloadData];
+    ShopCartTableViewCell *cell  = [tableView cellForRowAtIndexPath:indexPath];
+    cell.selectedButton.selected = listModel.selectedStatus;
 }
 @end
 
