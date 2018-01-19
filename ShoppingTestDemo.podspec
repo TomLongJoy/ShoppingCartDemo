@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source_files  = "ShoppingTestDemo/*"
   s.exclude_files = "UIKit"
   s.requires_arc = true
-
+  s.dependency "MJExtension","~> 3.0.13"
 end
