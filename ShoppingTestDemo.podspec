@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ShoppingTestDemo"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ShoppingTestDemo."
+  s.summary      = "A short description of ShoppingTestDemo. add model class"
   s.homepage     = "https://github.com/LongjieZhao/ShoppingCartDemo"
   s.license      = "MIT"
   s.author       = { "LongjieZhao" => "471727371@qq.com" }
