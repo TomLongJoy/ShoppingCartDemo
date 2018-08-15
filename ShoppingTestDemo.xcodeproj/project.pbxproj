@@ -18,6 +18,8 @@
 		3988F68320103C750013B09E /* ShoppingTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3988F68220103C750013B09E /* ShoppingTestDemoUITests.m */; };
 		39DDAE4520118A5C00CBDCDE /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DDAE4420118A5C00CBDCDE /* ShopModel.m */; };
 		39DDAE4820118BBF00CBDCDE /* ShopCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DDAE4720118BBF00CBDCDE /* ShopCartTableViewCell.m */; };
+		5CD871522123D90A00ED29DE /* JsOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD871512123D90A00ED29DE /* JsOCViewController.m */; };
+		5CD871562123DB0B00ED29DE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CD871552123DB0A00ED29DE /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		39DDAE4420118A5C00CBDCDE /* ShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopModel.m; sourceTree = "<group>"; };
 		39DDAE4620118BBF00CBDCDE /* ShopCartTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartTableViewCell.h; sourceTree = "<group>"; };
 		39DDAE4720118BBF00CBDCDE /* ShopCartTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartTableViewCell.m; sourceTree = "<group>"; };
+		5CD871502123D90A00ED29DE /* JsOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsOCViewController.h; sourceTree = "<group>"; };
+		5CD871512123D90A00ED29DE /* JsOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsOCViewController.m; sourceTree = "<group>"; };
+		5CD871552123DB0A00ED29DE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		6362EBD06CB5492FFAD443A0 /* Pods-ShoppingTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingTestDemo/Pods-ShoppingTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A172196C7D6BCF7DFD6DB475 /* Pods-ShoppingTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingTestDemo/Pods-ShoppingTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BFBECE5BC38842F63DCDEAB9 /* libPods-ShoppingTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppingTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +105,7 @@
 		3988F65220103C750013B09E = {
 			isa = PBXGroup;
 			children = (
+				5CD8714F2123D89300ED29DE /* JsAndOC */,
 				39DDAE3F201189E500CBDCDE /* Class */,
 				3988F65D20103C750013B09E /* ShoppingTestDemo */,
 				3988F67620103C750013B09E /* ShoppingTestDemoTests */,
@@ -185,6 +191,32 @@
 			children = (
 				39DDAE4620118BBF00CBDCDE /* ShopCartTableViewCell.h */,
 				39DDAE4720118BBF00CBDCDE /* ShopCartTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CD8714F2123D89300ED29DE /* JsAndOC */ = {
+			isa = PBXGroup;
+			children = (
+				5CD871542123DAE800ED29DE /* View */,
+				5CD871532123DAD100ED29DE /* ViewController */,
+			);
+			path = JsAndOC;
+			sourceTree = "<group>";
+		};
+		5CD871532123DAD100ED29DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CD871502123D90A00ED29DE /* JsOCViewController.h */,
+				5CD871512123D90A00ED29DE /* JsOCViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5CD871542123DAE800ED29DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CD871552123DB0A00ED29DE /* index.html */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3988F66B20103C750013B09E /* LaunchScreen.storyboard in Resources */,
+				5CD871562123DB0B00ED29DE /* index.html in Resources */,
 				3988F66820103C750013B09E /* Assets.xcassets in Resources */,
 				3988F66620103C750013B09E /* Main.storyboard in Resources */,
 			);
@@ -386,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3988F66320103C750013B09E /* ViewController.m in Sources */,
+				5CD871522123D90A00ED29DE /* JsOCViewController.m in Sources */,
 				39DDAE4520118A5C00CBDCDE /* ShopModel.m in Sources */,
 				39DDAE4820118BBF00CBDCDE /* ShopCartTableViewCell.m in Sources */,
 				3988F66E20103C750013B09E /* main.m in Sources */,
@@ -555,6 +589,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShoppingTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveyou.ShoppingTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,6 +604,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShoppingTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveyou.ShoppingTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

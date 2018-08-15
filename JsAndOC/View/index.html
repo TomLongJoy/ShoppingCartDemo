@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content = "text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+        <meta name="MobileOptimized" content="320">
+        <meta http-equiv="pragma" content="no-cache">
+            
+        <script language="javascript" type="text/javascript">
+            <!--分享按钮点击方法-->
+            function shareClick() {
+                window.webkit.messageHandlers.typeOfAttachment_iOS.postMessage('我是js方法传过来的数据');
+            }
+        
+            function js2oc2(x,y) {
+                window.webkit.messageHandlers.haveParamsFunction.postMessage({name:x,age:y});
+            }
+        </script>
+        <title>测试</title>
+        <style>
+            form,input{
+                width:80%;
+                padding:10px;
+            }
+            input{
+                height:50px;
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>这是按钮调用</h1>
+        <form>
+            <input id='shareBtn' type="button" value="分享" onclick="shareClick()"/> 
+            <a>++++++++++++++++++++++++++++++++++++</a>
+            <br>
+            
+            <input id='testButton' type="button" value="oc调用js" onclick="js2oc2('aaa','bbb')"/> 
+            <a>++++++++++++++++++++++++++++++++++++</a>
+            <br>
+        </form>
+        </textarea> 
+    </body>
+</html>
+

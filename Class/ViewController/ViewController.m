@@ -10,6 +10,8 @@
 #import "ShopModel.h"
 #import <MJExtension.h>
 #import "ShopCartTableViewCell.h"
+
+#import "JsOCViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     NSMutableArray  *_dataSourceArray;
@@ -24,6 +26,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    
     _dataSourceArray = [NSMutableArray array];
     [self.view addSubview:self.shoppingCartTableView];
     [self initMainComplaintModel];
@@ -51,7 +57,7 @@
 }
 
 - (void)initMainComplaintModel{
-    NSDictionary    *dic = @{@"reasonlist":@[@{@"reasonName":@"程序员接单后没有到达现场维修",
+    NSDictionary    *dic = @{@"reasonlist":@[@{@"reasonName":@"JsOC互相调用",
                                                @"selectedStatus":@"0"
                                                },
                                              @{@"reasonName":@"程序员服务态度好",
@@ -114,6 +120,11 @@
         NSInteger   selectedRow = indexPath.row;
         ShopGoodsListModel  *listModel = self.model.reasonlist[selectedRow];
         NSLog(@"[%ld:%@]",selectedRow,listModel.reasonName);
+    }
+    
+    if (indexPath.row == 0) {
+        JsOCViewController  *vc = [[JsOCViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 @end

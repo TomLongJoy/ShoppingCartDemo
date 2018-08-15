@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AvoidCrash/AvoidCrash.h>
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+        
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.window.rootViewController];
+//    [AvoidCrash makeAllEffective];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(creashMessage:) name:AvoidCrashNotification object:nil];
+    /**
+     NSString    *string = nil;
+     NSArray     *array = @[@"aaaa",string];
+     NSLog(@"%@",array);
+     */
     return YES;
+}
+
+- (void)creashMessage:(NSNotification *)notification{
+    NSLog(@"%@",notification);
+    
 }
 
 
