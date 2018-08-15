@@ -60,19 +60,19 @@
 }
 - (void)rightButtonClick:(UIButton *)sender{
     
-//    [self.wkWebView evaluateJavaScript:@"oc2jsButtonClick('zlj','hhx')"
-//                     completionHandler:^(id _Nullable handler, NSError * _Nullable error) {
-//                         
-//                     }];
+    [self.wkWebView evaluateJavaScript:@"js2oc2('zlj','hhx')"
+                     completionHandler:^(id _Nullable handler, NSError * _Nullable error) {
+                         NSLog(@"%@", error);
+                     }];
     
     /*
      这个方法会调用index.html里面的testButtonClick(x,y)方法。
      方法testButtonClick(x,y)会执行代码 window.webkit.messageHandlers.js2ocParames.postMessage({name:x,age:y});
      执行代码之后会再次走上面代理方法userContentController:didReceiveScriptMessage:
     */
-    [self.wkWebView evaluateJavaScript:@"testButtonClick('zlj','hhx')"
+    [self.wkWebView evaluateJavaScript:@"testButtonClick('第一次学习时间:','2018/08/15')"
                      completionHandler:^(id _Nullable handler, NSError * _Nullable error) {
-                         
+                         NSLog(@"%@", error);
                      }];
 
 }

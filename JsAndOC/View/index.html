@@ -6,22 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
         <meta name="MobileOptimized" content="320">
         <meta http-equiv="pragma" content="no-cache">
-            
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> </script>
+
         <script language="javascript" type="text/javascript">
             <!--分享按钮点击方法-->
             function shareClick() {
+                $('h1').html("js调用oc方法，无参数"); //赋值
                 window.webkit.messageHandlers.typeOfAttachment_iOS.postMessage('我是js方法传过来的数据');
             }
         
             function js2oc2(x,y) {
+                $('h1').html(""); //赋值
                 window.webkit.messageHandlers.haveParamsFunction.postMessage({name:x,age:y});
+            }
+            function testButtonClick(name,age){
+                $('h1').html(name+age); //赋值
             }
         </script>
         <title>测试</title>
         <style>
             form,input{
-                width:80%;
-                padding:10px;
+                width:90%;
             }
             input{
                 height:50px;
@@ -30,13 +35,14 @@
         </style>
     </head>
     <body>
-        <h1>这是按钮调用</h1>
+        <h1 >这是按钮调用</h1>
+        
         <form>
-            <input id='shareBtn' type="button" value="分享" onclick="shareClick()"/> 
+            <input id='shareBtn' type="button" value="js调用oc无参数" onclick="shareClick()"/> 
             <a>++++++++++++++++++++++++++++++++++++</a>
             <br>
             
-            <input id='testButton' type="button" value="oc调用js" onclick="js2oc2('aaa','bbb')"/> 
+            <input id='testButton' type="button" value="js调用oc有参数" onclick="js2oc2('aaa','bbb')"/> 
             <a>++++++++++++++++++++++++++++++++++++</a>
             <br>
         </form>
