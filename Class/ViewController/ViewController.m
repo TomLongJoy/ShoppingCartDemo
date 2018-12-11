@@ -12,6 +12,10 @@
 #import "ShopCartTableViewCell.h"
 
 #import "JsOCViewController.h"
+#import "ZLJpureLayoutViewController.h"
+#import "SendMessageViewController.h"
+#import "WIFIMessageViewController.h"
+#import "WebCacheViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     NSMutableArray  *_dataSourceArray;
@@ -60,16 +64,16 @@
     NSDictionary    *dic = @{@"reasonlist":@[@{@"reasonName":@"JsOC互相调用",
                                                @"selectedStatus":@"0"
                                                },
-                                             @{@"reasonName":@"程序员服务态度好",
+                                             @{@"reasonName":@"PureLayout学习",
                                                @"selectedStatus":@"0"
                                                },
-                                             @{@"reasonName":@"工程师维修质量好",
+                                             @{@"reasonName":@"发送短信",
                                                @"selectedStatus":@"0"
                                                },
-                                             @{@"reasonName":@"工程师没有按照约定的时间修好产品",
+                                             @{@"reasonName":@"WIFI强度",
                                                @"selectedStatus":@"0"
                                                },
-                                             @{@"reasonName":@"程序员服务态度好",
+                                             @{@"reasonName":@"WebCache",
                                                @"selectedStatus":@"0"
                                                },
                                              @{@"reasonName":@"工程师维修质量好",
@@ -121,9 +125,22 @@
         ShopGoodsListModel  *listModel = self.model.reasonlist[selectedRow];
         NSLog(@"[%ld:%@]",selectedRow,listModel.reasonName);
     }
-    
     if (indexPath.row == 0) {
         JsOCViewController  *vc = [[JsOCViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 1){
+        
+        ZLJpureLayoutViewController  *vc = [[ZLJpureLayoutViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 2){
+        
+        SendMessageViewController  *vc = [[SendMessageViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 3){
+        WIFIMessageViewController   *vc = [[WIFIMessageViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 4){
+        WebCacheViewController  *vc = [[WebCacheViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

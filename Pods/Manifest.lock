@@ -1,15 +1,33 @@
 PODS:
   - AvoidCrash (2.5.1)
   - MJExtension (3.0.13)
+  - PureLayout (3.1.2)
+  - RZColorful (1.1.6):
+    - RZColorful/AttributeCore (= 1.1.6)
+    - RZColorful/UICore (= 1.1.6)
+  - RZColorful/AttributeCore (1.1.6)
+  - RZColorful/UICore (1.1.6):
+    - RZColorful/AttributeCore
 
 DEPENDENCIES:
   - AvoidCrash (~> 2.5.1)
   - MJExtension (~> 3.0.13)
+  - PureLayout (~> 3.1.2)
+  - RZColorful (~> 1.1.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AvoidCrash
+    - MJExtension
+    - PureLayout
+    - RZColorful
 
 SPEC CHECKSUMS:
   AvoidCrash: 1fb7e2fa4b982c069b748266371654e4054683b1
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
+  RZColorful: 6336648cb8ed168d55b5e8c30a4793fab883ab0c
 
-PODFILE CHECKSUM: 94e7284d087b70dfc7a610f02b8429e1dfec204e
+PODFILE CHECKSUM: 654c244a328a157ea2ee5e6af319d423b08175a5
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.5.3

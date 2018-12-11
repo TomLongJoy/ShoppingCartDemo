@@ -18,6 +18,7 @@
                             function js2oc2(x,y) {
                                 $('h1').html("js调用oc方法，有参*"+x+"*"+y); 
                                 window.webkit.messageHandlers.haveParamsFunction.postMessage({name:x,age:y});
+                                alert("测试弹框");
                             }
                             function testButtonClick(name,age){
                                 $("#testh1id").html(name+age); //赋值

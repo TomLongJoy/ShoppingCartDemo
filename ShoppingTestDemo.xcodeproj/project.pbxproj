@@ -18,6 +18,12 @@
 		3988F68320103C750013B09E /* ShoppingTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3988F68220103C750013B09E /* ShoppingTestDemoUITests.m */; };
 		39DDAE4520118A5C00CBDCDE /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DDAE4420118A5C00CBDCDE /* ShopModel.m */; };
 		39DDAE4820118BBF00CBDCDE /* ShopCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DDAE4720118BBF00CBDCDE /* ShopCartTableViewCell.m */; };
+		5C006AF92148F3070074014C /* SendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C006AF82148F3070074014C /* SendMessageViewController.m */; };
+		5C006AFE2148F5DA0074014C /* WIFIMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C006AFD2148F5DA0074014C /* WIFIMessageViewController.m */; };
+		5C08B866214F483300A638DB /* WebCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C08B865214F483300A638DB /* WebCacheViewController.m */; };
+		5C7BAD7E2153A8E300527592 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7BAD7D2153A8E300527592 /* libstdc++.tbd */; };
+		5CC1D8FB2175863C00FECD5B /* ZLJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1D8FA2175863C00FECD5B /* ZLJViewController.m */; };
+		5CC659E4213F670500AC4FF1 /* ZLJpureLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC659E3213F670500AC4FF1 /* ZLJpureLayoutViewController.m */; };
 		5CD871522123D90A00ED29DE /* JsOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD871512123D90A00ED29DE /* JsOCViewController.m */; };
 		5CD871562123DB0B00ED29DE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CD871552123DB0A00ED29DE /* index.html */; };
 /* End PBXBuildFile section */
@@ -60,6 +66,17 @@
 		39DDAE4420118A5C00CBDCDE /* ShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopModel.m; sourceTree = "<group>"; };
 		39DDAE4620118BBF00CBDCDE /* ShopCartTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartTableViewCell.h; sourceTree = "<group>"; };
 		39DDAE4720118BBF00CBDCDE /* ShopCartTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartTableViewCell.m; sourceTree = "<group>"; };
+		5C006AF72148F3070074014C /* SendMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendMessageViewController.h; sourceTree = "<group>"; };
+		5C006AF82148F3070074014C /* SendMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMessageViewController.m; sourceTree = "<group>"; };
+		5C006AFC2148F5DA0074014C /* WIFIMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIFIMessageViewController.h; sourceTree = "<group>"; };
+		5C006AFD2148F5DA0074014C /* WIFIMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIFIMessageViewController.m; sourceTree = "<group>"; };
+		5C08B864214F483300A638DB /* WebCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebCacheViewController.h; sourceTree = "<group>"; };
+		5C08B865214F483300A638DB /* WebCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebCacheViewController.m; sourceTree = "<group>"; };
+		5C7BAD7D2153A8E300527592 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		5CC1D8F92175863C00FECD5B /* ZLJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJViewController.h; sourceTree = "<group>"; };
+		5CC1D8FA2175863C00FECD5B /* ZLJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJViewController.m; sourceTree = "<group>"; };
+		5CC659E2213F670500AC4FF1 /* ZLJpureLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJpureLayoutViewController.h; sourceTree = "<group>"; };
+		5CC659E3213F670500AC4FF1 /* ZLJpureLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJpureLayoutViewController.m; sourceTree = "<group>"; };
 		5CD871502123D90A00ED29DE /* JsOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsOCViewController.h; sourceTree = "<group>"; };
 		5CD871512123D90A00ED29DE /* JsOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsOCViewController.m; sourceTree = "<group>"; };
 		5CD871552123DB0A00ED29DE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -73,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7BAD7E2153A8E300527592 /* libstdc++.tbd in Frameworks */,
 				2577F8422F4CDCDFD0CD7489 /* libPods-ShoppingTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +115,7 @@
 		0A0842DA16A222052CCC5323 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C7BAD7D2153A8E300527592 /* libstdc++.tbd */,
 				BFBECE5BC38842F63DCDEAB9 /* libPods-ShoppingTestDemo.a */,
 			);
 			name = Frameworks;
@@ -105,6 +124,10 @@
 		3988F65220103C750013B09E = {
 			isa = PBXGroup;
 			children = (
+				5C08B862214F478300A638DB /* WebCache */,
+				5C006AFA2148F5B00074014C /* WIFIMessage */,
+				5C006AF52148F2DB0074014C /* SendMessage */,
+				5CC659DF213F66B000AC4FF1 /* PureLayoutLearn */,
 				5CD8714F2123D89300ED29DE /* JsAndOC */,
 				39DDAE3F201189E500CBDCDE /* Class */,
 				3988F65D20103C750013B09E /* ShoppingTestDemo */,
@@ -195,6 +218,84 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5C006AF52148F2DB0074014C /* SendMessage */ = {
+			isa = PBXGroup;
+			children = (
+				5C006AF62148F2F60074014C /* ViewController */,
+			);
+			path = SendMessage;
+			sourceTree = "<group>";
+		};
+		5C006AF62148F2F60074014C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C006AF72148F3070074014C /* SendMessageViewController.h */,
+				5C006AF82148F3070074014C /* SendMessageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5C006AFA2148F5B00074014C /* WIFIMessage */ = {
+			isa = PBXGroup;
+			children = (
+				5C006AFB2148F5C20074014C /* ViewController */,
+			);
+			path = WIFIMessage;
+			sourceTree = "<group>";
+		};
+		5C006AFB2148F5C20074014C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C006AFC2148F5DA0074014C /* WIFIMessageViewController.h */,
+				5C006AFD2148F5DA0074014C /* WIFIMessageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5C08B862214F478300A638DB /* WebCache */ = {
+			isa = PBXGroup;
+			children = (
+				5C08B863214F481600A638DB /* ViewController */,
+			);
+			path = WebCache;
+			sourceTree = "<group>";
+		};
+		5C08B863214F481600A638DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C08B864214F483300A638DB /* WebCacheViewController.h */,
+				5C08B865214F483300A638DB /* WebCacheViewController.m */,
+				5CC1D8F92175863C00FECD5B /* ZLJViewController.h */,
+				5CC1D8FA2175863C00FECD5B /* ZLJViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5CC659DF213F66B000AC4FF1 /* PureLayoutLearn */ = {
+			isa = PBXGroup;
+			children = (
+				5CC659E1213F66C900AC4FF1 /* View */,
+				5CC659E0213F66C100AC4FF1 /* ViewController */,
+			);
+			path = PureLayoutLearn;
+			sourceTree = "<group>";
+		};
+		5CC659E0213F66C100AC4FF1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CC659E2213F670500AC4FF1 /* ZLJpureLayoutViewController.h */,
+				5CC659E3213F670500AC4FF1 /* ZLJpureLayoutViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5CC659E1213F66C900AC4FF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5CD8714F2123D89300ED29DE /* JsAndOC */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,8 +342,6 @@
 				3988F65720103C750013B09E /* Sources */,
 				3988F65820103C750013B09E /* Frameworks */,
 				3988F65920103C750013B09E /* Resources */,
-				BF3C569571AF9A404875E306 /* [CP] Embed Pods Frameworks */,
-				7CABCC06155CEA91D6ECFFA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,36 +462,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7CABCC06155CEA91D6ECFFA5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingTestDemo/Pods-ShoppingTestDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF3C569571AF9A404875E306 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingTestDemo/Pods-ShoppingTestDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CC5611F66A916DAD4E0B8D1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,10 +488,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3988F66320103C750013B09E /* ViewController.m in Sources */,
+				5CC1D8FB2175863C00FECD5B /* ZLJViewController.m in Sources */,
 				5CD871522123D90A00ED29DE /* JsOCViewController.m in Sources */,
+				5C006AFE2148F5DA0074014C /* WIFIMessageViewController.m in Sources */,
 				39DDAE4520118A5C00CBDCDE /* ShopModel.m in Sources */,
+				5CC659E4213F670500AC4FF1 /* ZLJpureLayoutViewController.m in Sources */,
+				5C006AF92148F3070074014C /* SendMessageViewController.m in Sources */,
 				39DDAE4820118BBF00CBDCDE /* ShopCartTableViewCell.m in Sources */,
 				3988F66E20103C750013B09E /* main.m in Sources */,
+				5C08B866214F483300A638DB /* WebCacheViewController.m in Sources */,
 				3988F66020103C750013B09E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,12 +661,15 @@
 			baseConfigurationReference = 6362EBD06CB5492FFAD443A0 /* Pods-ShoppingTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T556TVT3W8;
 				INFOPLIST_FILE = ShoppingTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveyou.ShoppingTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -602,12 +679,15 @@
 			baseConfigurationReference = A172196C7D6BCF7DFD6DB475 /* Pods-ShoppingTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T556TVT3W8;
 				INFOPLIST_FILE = ShoppingTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveyou.ShoppingTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
