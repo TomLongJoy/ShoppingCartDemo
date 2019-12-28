@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "008A10A4714AFF8CEB793B57C7C3938E"
+               BlueprintIdentifier = "3EF5D081B1D7DC264BA17435571FAD0D"
                BlueprintName = "RZColorful"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libRZColorful.a">

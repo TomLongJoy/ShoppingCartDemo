@@ -1,5 +1,8 @@
 PODS:
   - AvoidCrash (2.5.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - MJExtension (3.0.13)
   - PureLayout (3.1.2)
   - RZColorful (1.1.6):
@@ -8,26 +11,41 @@ PODS:
   - RZColorful/AttributeCore (1.1.6)
   - RZColorful/UICore (1.1.6):
     - RZColorful/AttributeCore
+  - SDAutoLayout (2.2.1)
+  - WebViewJavascriptBridge (6.0.3)
+  - WMPageController (2.5.2)
 
 DEPENDENCIES:
   - AvoidCrash (~> 2.5.1)
+  - FMDB (~> 2.7.5)
   - MJExtension (~> 3.0.13)
   - PureLayout (~> 3.1.2)
   - RZColorful (~> 1.1.6)
+  - SDAutoLayout (~> 2.2.1)
+  - WebViewJavascriptBridge (~> 6.0.3)
+  - WMPageController (~> 2.5.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AvoidCrash
+    - FMDB
     - MJExtension
     - PureLayout
     - RZColorful
+    - SDAutoLayout
+    - WebViewJavascriptBridge
+    - WMPageController
 
 SPEC CHECKSUMS:
   AvoidCrash: 1fb7e2fa4b982c069b748266371654e4054683b1
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
   RZColorful: 6336648cb8ed168d55b5e8c30a4793fab883ab0c
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: 654c244a328a157ea2ee5e6af319d423b08175a5
+PODFILE CHECKSUM: 34899267e7a53d7b0a1603b3cd98a1c96911d5cc
 
 COCOAPODS: 1.5.3

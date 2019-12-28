@@ -20,4 +20,6 @@
 
 @property (nonatomic,assign)    BOOL    selectedStatus;
 
+@property (nonatomic,copy)      NSString    *className;
+
 @end

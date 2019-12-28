@@ -1,0 +1,6 @@
+framework module ZZWBasePhoneSDK {
+  umbrella header "ZZWBasePhoneSDK.h"
+
+  export *
+  module * { export * }
+}

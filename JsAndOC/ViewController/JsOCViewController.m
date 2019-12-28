@@ -52,7 +52,7 @@
     return _wkWebView;
 }
 #pragma mark -- WKScriptMessageHandler
-- (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message{
+- (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message{//js交互
     
     if ([message.name isEqualToString:@"typeOfAttachment_iOS"]) {
         NSLog(@"%@",message.body);

@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     //蓝色view位于中心, 大小是50pt
     UIView *blueView = [[UIView alloc] init];

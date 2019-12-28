@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <AvoidCrash/AvoidCrash.h>
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,14 +19,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
         
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.window.rootViewController];
-//    [AvoidCrash makeAllEffective];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(creashMessage:) name:AvoidCrashNotification object:nil];
-    /**
-     NSString    *string = nil;
-     NSArray     *array = @[@"aaaa",string];
-     NSLog(@"%@",array);
-     */
+    ViewController  *vc = [[ViewController alloc] init];
+//    ViewController  *vc_01 = [[ViewController alloc] init];
+//    ViewController  *vc_02 = [[ViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
+//    UINavigationController *navController = [[UINavigationController alloc] initWithNavigationBarClass:[UINavigationBar class] toolbarClass:[UIToolbar class]];
+//    navController.viewControllers = @[vc,vc_01,vc_02];
+    self.window.rootViewController = navController;
+#if TARGET_IPHONE_SIMULATOR
+    //模拟器  -(void)injected {}
+    [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection10.bundle"] load];
+#else
+    
+#endif
     return YES;
 }
 

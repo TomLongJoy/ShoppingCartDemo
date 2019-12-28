@@ -6,6 +6,20 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5CB0FF6E22714F450017A45E /* OCLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5CB0FF7122714F450017A45E /* Build configuration list for PBXAggregateTarget "OCLint" */;
+			buildPhases = (
+				5CB0FF7222714F5B0017A45E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = OCLint;
+			productName = OCLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2577F8422F4CDCDFD0CD7489 /* libPods-ShoppingTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBECE5BC38842F63DCDEAB9 /* libPods-ShoppingTestDemo.a */; };
 		3988F66020103C750013B09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3988F65F20103C750013B09E /* AppDelegate.m */; };
@@ -21,9 +35,70 @@
 		5C006AF92148F3070074014C /* SendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C006AF82148F3070074014C /* SendMessageViewController.m */; };
 		5C006AFE2148F5DA0074014C /* WIFIMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C006AFD2148F5DA0074014C /* WIFIMessageViewController.m */; };
 		5C08B866214F483300A638DB /* WebCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C08B865214F483300A638DB /* WebCacheViewController.m */; };
+		5C2D4E5E222528D8002E33F5 /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D4E5D222528D8002E33F5 /* BezierCurveView.m */; };
+		5C3D0427224EF4DF00145B12 /* FaceTakePhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D0426224EF4DF00145B12 /* FaceTakePhotoVC.m */; };
+		5C57AC3E2282DAD100815D63 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C57AC3A2282DAD000815D63 /* BaseModel.m */; };
+		5C57AC3F2282DAD100815D63 /* XYDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C57AC3B2282DAD100815D63 /* XYDatabase.m */; };
+		5C57B472222657A800688DCF /* ZZWBasePhoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C57B471222657A800688DCF /* ZZWBasePhoneSDK.framework */; };
+		5C57B476222657C300688DCF /* ZZWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C57B475222657C300688DCF /* ZZWViewController.m */; };
+		5C57B477222657DB00688DCF /* ZZWBasePhoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C57B471222657A800688DCF /* ZZWBasePhoneSDK.framework */; };
+		5C57B478222657DB00688DCF /* ZZWBasePhoneSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C57B471222657A800688DCF /* ZZWBasePhoneSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C5B93D7223A443A007EF1E4 /* RuntimVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B93D6223A443A007EF1E4 /* RuntimVC.m */; };
+		5C61DB0F227011AD00B2250F /* BaseUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C61DB0E227011AD00B2250F /* BaseUIWebView.m */; };
+		5C61DB12227011F700B2250F /* BaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C61DB11227011F700B2250F /* BaseWebView.m */; };
+		5C61DB162270138200B2250F /* BaseUIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C61DB152270138200B2250F /* BaseUIWebViewVC.m */; };
+		5C6389F5229FF0B3004F5689 /* ZLJSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6389F4229FF0B3004F5689 /* ZLJSelectedView.m */; };
 		5C7BAD7E2153A8E300527592 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7BAD7D2153A8E300527592 /* libstdc++.tbd */; };
+		5C87936C22F1802F00DBBE68 /* XLForm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C87931622F1802F00DBBE68 /* XLForm.bundle */; };
+		5C87936E22F1802F00DBBE68 /* XLFormTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87931B22F1802F00DBBE68 /* XLFormTextViewCell.m */; };
+		5C87936F22F1802F00DBBE68 /* XLFormStepCounterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87931D22F1802F00DBBE68 /* XLFormStepCounterCell.m */; };
+		5C87937022F1802F00DBBE68 /* XLFormSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87931E22F1802F00DBBE68 /* XLFormSegmentedCell.m */; };
+		5C87937122F1802F00DBBE68 /* XLFormCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87931F22F1802F00DBBE68 /* XLFormCheckCell.m */; };
+		5C87937222F1802F00DBBE68 /* XLFormButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87932022F1802F00DBBE68 /* XLFormButtonCell.m */; };
+		5C87937322F1802F00DBBE68 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87932522F1802F00DBBE68 /* XLFormBaseCell.m */; };
+		5C87937422F1802F00DBBE68 /* XLFormSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87932722F1802F00DBBE68 /* XLFormSwitchCell.m */; };
+		5C87937522F1802F00DBBE68 /* XLFormSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87932C22F1802F00DBBE68 /* XLFormSliderCell.m */; };
+		5C87937622F1802F00DBBE68 /* XLFormInlineSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87932E22F1802F00DBBE68 /* XLFormInlineSelectorCell.m */; };
+		5C87937722F1802F00DBBE68 /* XLFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933322F1802F00DBBE68 /* XLFormImageCell.m */; };
+		5C87937822F1802F00DBBE68 /* XLFormLeftRightSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933522F1802F00DBBE68 /* XLFormLeftRightSelectorCell.m */; };
+		5C87937922F1802F00DBBE68 /* XLFormPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933722F1802F00DBBE68 /* XLFormPickerCell.m */; };
+		5C87937A22F1802F00DBBE68 /* XLFormDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933922F1802F00DBBE68 /* XLFormDateCell.m */; };
+		5C87937B22F1802F00DBBE68 /* XLFormSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933A22F1802F00DBBE68 /* XLFormSelectorCell.m */; };
+		5C87937C22F1802F00DBBE68 /* XLFormTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933B22F1802F00DBBE68 /* XLFormTextFieldCell.m */; };
+		5C87937D22F1802F00DBBE68 /* XLFormDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87933C22F1802F00DBBE68 /* XLFormDatePickerCell.m */; };
+		5C87937E22F1802F00DBBE68 /* XLFormSectionDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934122F1802F00DBBE68 /* XLFormSectionDescriptor.m */; };
+		5C87937F22F1802F00DBBE68 /* XLFormRowDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934222F1802F00DBBE68 /* XLFormRowDescriptor.m */; };
+		5C87938022F1802F00DBBE68 /* XLFormDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934322F1802F00DBBE68 /* XLFormDescriptor.m */; };
+		5C87938122F1802F00DBBE68 /* XLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934622F1802F00DBBE68 /* XLFormViewController.m */; };
+		5C87938222F1802F00DBBE68 /* XLFormOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934B22F1802F00DBBE68 /* XLFormOptionsViewController.m */; };
+		5C87938322F1802F00DBBE68 /* XLFormOptionsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934C22F1802F00DBBE68 /* XLFormOptionsObject.m */; };
+		5C87938422F1802F00DBBE68 /* XLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934D22F1802F00DBBE68 /* XLForm.m */; };
+		5C87938522F1802F00DBBE68 /* NSObject+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87934F22F1802F00DBBE68 /* NSObject+XLFormAdditions.m */; };
+		5C87938622F1802F00DBBE68 /* NSPredicate+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935022F1802F00DBBE68 /* NSPredicate+XLFormAdditions.m */; };
+		5C87938722F1802F00DBBE68 /* NSExpression+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935122F1802F00DBBE68 /* NSExpression+XLFormAdditions.m */; };
+		5C87938822F1802F00DBBE68 /* NSString+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935422F1802F00DBBE68 /* NSString+XLFormAdditions.m */; };
+		5C87938922F1802F00DBBE68 /* XLFormRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935922F1802F00DBBE68 /* XLFormRightImageButton.m */; };
+		5C87938A22F1802F00DBBE68 /* XLFormTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935A22F1802F00DBBE68 /* XLFormTextView.m */; };
+		5C87938B22F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935B22F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.m */; };
+		5C87938C22F1802F00DBBE68 /* XLFormRightDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87935C22F1802F00DBBE68 /* XLFormRightDetailCell.m */; };
+		5C87938D22F1802F00DBBE68 /* NSArray+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87936222F1802F00DBBE68 /* NSArray+XLFormAdditions.m */; };
+		5C87938E22F1802F00DBBE68 /* UIView+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87936322F1802F00DBBE68 /* UIView+XLFormAdditions.m */; };
+		5C87938F22F1802F00DBBE68 /* XLFormRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87936522F1802F00DBBE68 /* XLFormRegexValidator.m */; };
+		5C87939022F1802F00DBBE68 /* XLFormValidationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87936722F1802F00DBBE68 /* XLFormValidationStatus.m */; };
+		5C87939122F1802F00DBBE68 /* XLFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87936822F1802F00DBBE68 /* XLFormValidator.m */; };
+		5C87939622F183C500DBBE68 /* ZLJFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87939522F183C500DBBE68 /* ZLJFormViewController.m */; };
+		5C87A76E22252634001DBC6C /* BrokenLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C87A76D22252634001DBC6C /* BrokenLineVC.m */; };
+		5CAED307224F3FD400E66B86 /* LFCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAED304224F3FD400E66B86 /* LFCamera.m */; };
+		5CAED308224F3FD400E66B86 /* LFCameraResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAED305224F3FD400E66B86 /* LFCameraResultView.m */; };
+		5CB0FF6622713BF50017A45E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB0FF6422713BF50017A45E /* icon.png */; };
+		5CB0FF6722713BF50017A45E /* load_fail.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CB0FF6522713BF50017A45E /* load_fail.html */; };
+		5CB0FF6A22713D860017A45E /* BaseWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0FF6922713D860017A45E /* BaseWKWebViewVC.m */; };
+		5CB0FF6D22713DB10017A45E /* BaseWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0FF6C22713DB10017A45E /* BaseWKWebView.m */; };
+		5CBD98EC223F8E07000AC32A /* ZLJBezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD98EA223F8E07000AC32A /* ZLJBezierCurveView.m */; };
+		5CC1CE5522CCC1E900E1637D /* ZLJDaiYanShouModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1CE5422CCC1E900E1637D /* ZLJDaiYanShouModel.m */; };
 		5CC1D8FB2175863C00FECD5B /* ZLJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1D8FA2175863C00FECD5B /* ZLJViewController.m */; };
 		5CC659E4213F670500AC4FF1 /* ZLJpureLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC659E3213F670500AC4FF1 /* ZLJpureLayoutViewController.m */; };
+		5CCEA7BF227ED46100DF1B91 /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEA7BE227ED46100DF1B91 /* FMDBViewController.m */; };
 		5CD871522123D90A00ED29DE /* JsOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD871512123D90A00ED29DE /* JsOCViewController.m */; };
 		5CD871562123DB0B00ED29DE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CD871552123DB0A00ED29DE /* index.html */; };
 /* End PBXBuildFile section */
@@ -44,6 +119,20 @@
 			remoteInfo = ShoppingTestDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C57B479222657DC00688DCF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C57B478222657DB00688DCF /* ZZWBasePhoneSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3988F65B20103C750013B09E /* ShoppingTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,11 +161,130 @@
 		5C006AFD2148F5DA0074014C /* WIFIMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIFIMessageViewController.m; sourceTree = "<group>"; };
 		5C08B864214F483300A638DB /* WebCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebCacheViewController.h; sourceTree = "<group>"; };
 		5C08B865214F483300A638DB /* WebCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebCacheViewController.m; sourceTree = "<group>"; };
+		5C2D4E5C222528D8002E33F5 /* BezierCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
+		5C2D4E5D222528D8002E33F5 /* BezierCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		5C3D0425224EF4DF00145B12 /* FaceTakePhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceTakePhotoVC.h; sourceTree = "<group>"; };
+		5C3D0426224EF4DF00145B12 /* FaceTakePhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTakePhotoVC.m; sourceTree = "<group>"; };
+		5C57AC3A2282DAD000815D63 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		5C57AC3B2282DAD100815D63 /* XYDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDatabase.m; sourceTree = "<group>"; };
+		5C57AC3C2282DAD100815D63 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		5C57AC3D2282DAD100815D63 /* XYDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDatabase.h; sourceTree = "<group>"; };
+		5C57B471222657A800688DCF /* ZZWBasePhoneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZZWBasePhoneSDK.framework; sourceTree = "<group>"; };
+		5C57B474222657C300688DCF /* ZZWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZWViewController.h; sourceTree = "<group>"; };
+		5C57B475222657C300688DCF /* ZZWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWViewController.m; sourceTree = "<group>"; };
+		5C5B93D5223A443A007EF1E4 /* RuntimVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimVC.h; sourceTree = "<group>"; };
+		5C5B93D6223A443A007EF1E4 /* RuntimVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimVC.m; sourceTree = "<group>"; };
+		5C61DB0D227011AD00B2250F /* BaseUIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUIWebView.h; sourceTree = "<group>"; };
+		5C61DB0E227011AD00B2250F /* BaseUIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUIWebView.m; sourceTree = "<group>"; };
+		5C61DB10227011F700B2250F /* BaseWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWebView.h; sourceTree = "<group>"; };
+		5C61DB11227011F700B2250F /* BaseWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWebView.m; sourceTree = "<group>"; };
+		5C61DB142270138200B2250F /* BaseUIWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUIWebViewVC.h; sourceTree = "<group>"; };
+		5C61DB152270138200B2250F /* BaseUIWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUIWebViewVC.m; sourceTree = "<group>"; };
+		5C6389F3229FF0B3004F5689 /* ZLJSelectedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJSelectedView.h; sourceTree = "<group>"; };
+		5C6389F4229FF0B3004F5689 /* ZLJSelectedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJSelectedView.m; sourceTree = "<group>"; };
 		5C7BAD7D2153A8E300527592 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		5C87931622F1802F00DBBE68 /* XLForm.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLForm.bundle; sourceTree = "<group>"; };
+		5C87931922F1802F00DBBE68 /* XLForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLForm.h; sourceTree = "<group>"; };
+		5C87931B22F1802F00DBBE68 /* XLFormTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormTextViewCell.m; sourceTree = "<group>"; };
+		5C87931C22F1802F00DBBE68 /* XLFormInlineSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineSelectorCell.h; sourceTree = "<group>"; };
+		5C87931D22F1802F00DBBE68 /* XLFormStepCounterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormStepCounterCell.m; sourceTree = "<group>"; };
+		5C87931E22F1802F00DBBE68 /* XLFormSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSegmentedCell.m; sourceTree = "<group>"; };
+		5C87931F22F1802F00DBBE68 /* XLFormCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormCheckCell.m; sourceTree = "<group>"; };
+		5C87932022F1802F00DBBE68 /* XLFormButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormButtonCell.m; sourceTree = "<group>"; };
+		5C87932122F1802F00DBBE68 /* XLFormDescriptorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDescriptorCell.h; sourceTree = "<group>"; };
+		5C87932222F1802F00DBBE68 /* XLFormPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormPickerCell.h; sourceTree = "<group>"; };
+		5C87932322F1802F00DBBE68 /* XLFormInlineRowDescriptorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineRowDescriptorCell.h; sourceTree = "<group>"; };
+		5C87932422F1802F00DBBE68 /* XLFormLeftRightSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormLeftRightSelectorCell.h; sourceTree = "<group>"; };
+		5C87932522F1802F00DBBE68 /* XLFormBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormBaseCell.m; sourceTree = "<group>"; };
+		5C87932622F1802F00DBBE68 /* XLFormImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormImageCell.h; sourceTree = "<group>"; };
+		5C87932722F1802F00DBBE68 /* XLFormSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSwitchCell.m; sourceTree = "<group>"; };
+		5C87932822F1802F00DBBE68 /* XLFormDatePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDatePickerCell.h; sourceTree = "<group>"; };
+		5C87932922F1802F00DBBE68 /* XLFormTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormTextFieldCell.h; sourceTree = "<group>"; };
+		5C87932A22F1802F00DBBE68 /* XLFormSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSelectorCell.h; sourceTree = "<group>"; };
+		5C87932B22F1802F00DBBE68 /* XLFormDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDateCell.h; sourceTree = "<group>"; };
+		5C87932C22F1802F00DBBE68 /* XLFormSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSliderCell.m; sourceTree = "<group>"; };
+		5C87932D22F1802F00DBBE68 /* XLFormStepCounterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormStepCounterCell.h; sourceTree = "<group>"; };
+		5C87932E22F1802F00DBBE68 /* XLFormInlineSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormInlineSelectorCell.m; sourceTree = "<group>"; };
+		5C87932F22F1802F00DBBE68 /* XLFormTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormTextViewCell.h; sourceTree = "<group>"; };
+		5C87933022F1802F00DBBE68 /* XLFormButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormButtonCell.h; sourceTree = "<group>"; };
+		5C87933122F1802F00DBBE68 /* XLFormCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormCheckCell.h; sourceTree = "<group>"; };
+		5C87933222F1802F00DBBE68 /* XLFormSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSegmentedCell.h; sourceTree = "<group>"; };
+		5C87933322F1802F00DBBE68 /* XLFormImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormImageCell.m; sourceTree = "<group>"; };
+		5C87933422F1802F00DBBE68 /* XLFormSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSwitchCell.h; sourceTree = "<group>"; };
+		5C87933522F1802F00DBBE68 /* XLFormLeftRightSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormLeftRightSelectorCell.m; sourceTree = "<group>"; };
+		5C87933622F1802F00DBBE68 /* XLFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormBaseCell.h; sourceTree = "<group>"; };
+		5C87933722F1802F00DBBE68 /* XLFormPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormPickerCell.m; sourceTree = "<group>"; };
+		5C87933822F1802F00DBBE68 /* XLFormSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSliderCell.h; sourceTree = "<group>"; };
+		5C87933922F1802F00DBBE68 /* XLFormDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDateCell.m; sourceTree = "<group>"; };
+		5C87933A22F1802F00DBBE68 /* XLFormSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSelectorCell.m; sourceTree = "<group>"; };
+		5C87933B22F1802F00DBBE68 /* XLFormTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormTextFieldCell.m; sourceTree = "<group>"; };
+		5C87933C22F1802F00DBBE68 /* XLFormDatePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDatePickerCell.m; sourceTree = "<group>"; };
+		5C87933E22F1802F00DBBE68 /* XLFormDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDescriptor.h; sourceTree = "<group>"; };
+		5C87933F22F1802F00DBBE68 /* XLFormRowDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRowDescriptor.h; sourceTree = "<group>"; };
+		5C87934022F1802F00DBBE68 /* XLFormDescriptorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDescriptorDelegate.h; sourceTree = "<group>"; };
+		5C87934122F1802F00DBBE68 /* XLFormSectionDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSectionDescriptor.m; sourceTree = "<group>"; };
+		5C87934222F1802F00DBBE68 /* XLFormRowDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRowDescriptor.m; sourceTree = "<group>"; };
+		5C87934322F1802F00DBBE68 /* XLFormDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDescriptor.m; sourceTree = "<group>"; };
+		5C87934422F1802F00DBBE68 /* XLFormSectionDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSectionDescriptor.h; sourceTree = "<group>"; };
+		5C87934622F1802F00DBBE68 /* XLFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormViewController.m; sourceTree = "<group>"; };
+		5C87934722F1802F00DBBE68 /* XLFormOptionsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormOptionsObject.h; sourceTree = "<group>"; };
+		5C87934822F1802F00DBBE68 /* XLFormOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormOptionsViewController.h; sourceTree = "<group>"; };
+		5C87934922F1802F00DBBE68 /* XLFormRowDescriptorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRowDescriptorViewController.h; sourceTree = "<group>"; };
+		5C87934A22F1802F00DBBE68 /* XLFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormViewController.h; sourceTree = "<group>"; };
+		5C87934B22F1802F00DBBE68 /* XLFormOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormOptionsViewController.m; sourceTree = "<group>"; };
+		5C87934C22F1802F00DBBE68 /* XLFormOptionsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormOptionsObject.m; sourceTree = "<group>"; };
+		5C87934D22F1802F00DBBE68 /* XLForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLForm.m; sourceTree = "<group>"; };
+		5C87934F22F1802F00DBBE68 /* NSObject+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLFormAdditions.m"; sourceTree = "<group>"; };
+		5C87935022F1802F00DBBE68 /* NSPredicate+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+XLFormAdditions.m"; sourceTree = "<group>"; };
+		5C87935122F1802F00DBBE68 /* NSExpression+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSExpression+XLFormAdditions.m"; sourceTree = "<group>"; };
+		5C87935222F1802F00DBBE68 /* UIView+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLFormAdditions.h"; sourceTree = "<group>"; };
+		5C87935322F1802F00DBBE68 /* NSArray+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XLFormAdditions.h"; sourceTree = "<group>"; };
+		5C87935422F1802F00DBBE68 /* NSString+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLFormAdditions.m"; sourceTree = "<group>"; };
+		5C87935522F1802F00DBBE68 /* NSObject+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLFormAdditions.h"; sourceTree = "<group>"; };
+		5C87935622F1802F00DBBE68 /* NSExpression+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSExpression+XLFormAdditions.h"; sourceTree = "<group>"; };
+		5C87935722F1802F00DBBE68 /* NSPredicate+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+XLFormAdditions.h"; sourceTree = "<group>"; };
+		5C87935922F1802F00DBBE68 /* XLFormRightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRightImageButton.m; sourceTree = "<group>"; };
+		5C87935A22F1802F00DBBE68 /* XLFormTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormTextView.m; sourceTree = "<group>"; };
+		5C87935B22F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRowNavigationAccessoryView.m; sourceTree = "<group>"; };
+		5C87935C22F1802F00DBBE68 /* XLFormRightDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRightDetailCell.m; sourceTree = "<group>"; };
+		5C87935D22F1802F00DBBE68 /* XLFormTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormTextView.h; sourceTree = "<group>"; };
+		5C87935E22F1802F00DBBE68 /* XLFormRightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRightImageButton.h; sourceTree = "<group>"; };
+		5C87935F22F1802F00DBBE68 /* XLFormRightDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRightDetailCell.h; sourceTree = "<group>"; };
+		5C87936022F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRowNavigationAccessoryView.h; sourceTree = "<group>"; };
+		5C87936122F1802F00DBBE68 /* NSString+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLFormAdditions.h"; sourceTree = "<group>"; };
+		5C87936222F1802F00DBBE68 /* NSArray+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XLFormAdditions.m"; sourceTree = "<group>"; };
+		5C87936322F1802F00DBBE68 /* UIView+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLFormAdditions.m"; sourceTree = "<group>"; };
+		5C87936522F1802F00DBBE68 /* XLFormRegexValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRegexValidator.m; sourceTree = "<group>"; };
+		5C87936622F1802F00DBBE68 /* XLFormValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidator.h; sourceTree = "<group>"; };
+		5C87936722F1802F00DBBE68 /* XLFormValidationStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormValidationStatus.m; sourceTree = "<group>"; };
+		5C87936822F1802F00DBBE68 /* XLFormValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormValidator.m; sourceTree = "<group>"; };
+		5C87936922F1802F00DBBE68 /* XLFormRegexValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRegexValidator.h; sourceTree = "<group>"; };
+		5C87936A22F1802F00DBBE68 /* XLFormValidationStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidationStatus.h; sourceTree = "<group>"; };
+		5C87936B22F1802F00DBBE68 /* XLFormValidatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidatorProtocol.h; sourceTree = "<group>"; };
+		5C87939422F183C500DBBE68 /* ZLJFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJFormViewController.h; sourceTree = "<group>"; };
+		5C87939522F183C500DBBE68 /* ZLJFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJFormViewController.m; sourceTree = "<group>"; };
+		5C87A76C22252634001DBC6C /* BrokenLineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenLineVC.h; sourceTree = "<group>"; };
+		5C87A76D22252634001DBC6C /* BrokenLineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineVC.m; sourceTree = "<group>"; };
+		5CAED303224F3FD400E66B86 /* LFCameraResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCameraResultView.h; sourceTree = "<group>"; };
+		5CAED304224F3FD400E66B86 /* LFCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCamera.m; sourceTree = "<group>"; };
+		5CAED305224F3FD400E66B86 /* LFCameraResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCameraResultView.m; sourceTree = "<group>"; };
+		5CAED306224F3FD400E66B86 /* LFCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCamera.h; sourceTree = "<group>"; };
+		5CB0FF6422713BF50017A45E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5CB0FF6522713BF50017A45E /* load_fail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = load_fail.html; sourceTree = "<group>"; };
+		5CB0FF6822713D860017A45E /* BaseWKWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWKWebViewVC.h; sourceTree = "<group>"; };
+		5CB0FF6922713D860017A45E /* BaseWKWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWKWebViewVC.m; sourceTree = "<group>"; };
+		5CB0FF6B22713DB10017A45E /* BaseWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWKWebView.h; sourceTree = "<group>"; };
+		5CB0FF6C22713DB10017A45E /* BaseWKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWKWebView.m; sourceTree = "<group>"; };
+		5CBD98EA223F8E07000AC32A /* ZLJBezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLJBezierCurveView.m; sourceTree = "<group>"; };
+		5CBD98EB223F8E07000AC32A /* ZLJBezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLJBezierCurveView.h; sourceTree = "<group>"; };
+		5CC1CE5322CCC1E900E1637D /* ZLJDaiYanShouModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLJDaiYanShouModel.h; sourceTree = "<group>"; };
+		5CC1CE5422CCC1E900E1637D /* ZLJDaiYanShouModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLJDaiYanShouModel.m; sourceTree = "<group>"; };
 		5CC1D8F92175863C00FECD5B /* ZLJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJViewController.h; sourceTree = "<group>"; };
 		5CC1D8FA2175863C00FECD5B /* ZLJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJViewController.m; sourceTree = "<group>"; };
 		5CC659E2213F670500AC4FF1 /* ZLJpureLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJpureLayoutViewController.h; sourceTree = "<group>"; };
 		5CC659E3213F670500AC4FF1 /* ZLJpureLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJpureLayoutViewController.m; sourceTree = "<group>"; };
+		5CCEA7BD227ED46100DF1B91 /* FMDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
+		5CCEA7BE227ED46100DF1B91 /* FMDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
 		5CD871502123D90A00ED29DE /* JsOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsOCViewController.h; sourceTree = "<group>"; };
 		5CD871512123D90A00ED29DE /* JsOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsOCViewController.m; sourceTree = "<group>"; };
 		5CD871552123DB0A00ED29DE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -92,6 +300,8 @@
 			files = (
 				5C7BAD7E2153A8E300527592 /* libstdc++.tbd in Frameworks */,
 				2577F8422F4CDCDFD0CD7489 /* libPods-ShoppingTestDemo.a in Frameworks */,
+				5C57B472222657A800688DCF /* ZZWBasePhoneSDK.framework in Frameworks */,
+				5C57B477222657DB00688DCF /* ZZWBasePhoneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,18 +334,27 @@
 		3988F65220103C750013B09E = {
 			isa = PBXGroup;
 			children = (
-				5C08B862214F478300A638DB /* WebCache */,
-				5C006AFA2148F5B00074014C /* WIFIMessage */,
-				5C006AF52148F2DB0074014C /* SendMessage */,
-				5CC659DF213F66B000AC4FF1 /* PureLayoutLearn */,
-				5CD8714F2123D89300ED29DE /* JsAndOC */,
+				5C87939222F1814900DBBE68 /* Form */,
+				5C87930F22F1729800DBBE68 /* Vendor */,
+				5C61DB0C2270118D00B2250F /* BaseWebView */,
 				39DDAE3F201189E500CBDCDE /* Class */,
+				5C3D0424224EF4C400145B12 /* FaceTakePhoto */,
+				5CCEA7BB227ED40000DF1B91 /* FMDB */,
+				0A0842DA16A222052CCC5323 /* Frameworks */,
+				5CD8714F2123D89300ED29DE /* JsAndOC */,
+				5CBD98E8223F8DEF000AC32A /* Other */,
+				CEAADB265E96F267EAE9D458 /* Pods */,
+				3988F65C20103C750013B09E /* Products */,
+				5CC659DF213F66B000AC4FF1 /* PureLayoutLearn */,
+				5C5B93D4223A43AB007EF1E4 /* RuntimProperty */,
+				5C006AF52148F2DB0074014C /* SendMessage */,
 				3988F65D20103C750013B09E /* ShoppingTestDemo */,
 				3988F67620103C750013B09E /* ShoppingTestDemoTests */,
 				3988F68120103C750013B09E /* ShoppingTestDemoUITests */,
-				3988F65C20103C750013B09E /* Products */,
-				CEAADB265E96F267EAE9D458 /* Pods */,
-				0A0842DA16A222052CCC5323 /* Frameworks */,
+				5C08B862214F478300A638DB /* WebCache */,
+				5C006AFA2148F5B00074014C /* WIFIMessage */,
+				5C87A76B222525CE001DBC6C /* ZheXianTu */,
+				5C57B46F2226577700688DCF /* ZhiZhiWu */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +457,7 @@
 		5C006AFA2148F5B00074014C /* WIFIMessage */ = {
 			isa = PBXGroup;
 			children = (
+				5CC1CE5222CCC1CF00E1637D /* Model */,
 				5C006AFB2148F5C20074014C /* ViewController */,
 			);
 			path = WIFIMessage;
@@ -271,6 +491,337 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		5C2D4E5B222528BB002E33F5 /* BezierView */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D4E5C222528D8002E33F5 /* BezierCurveView.h */,
+				5C2D4E5D222528D8002E33F5 /* BezierCurveView.m */,
+			);
+			path = BezierView;
+			sourceTree = "<group>";
+		};
+		5C3D0424224EF4C400145B12 /* FaceTakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				5CAED302224F3FD400E66B86 /* LFCamera */,
+				5C3D0425224EF4DF00145B12 /* FaceTakePhotoVC.h */,
+				5C3D0426224EF4DF00145B12 /* FaceTakePhotoVC.m */,
+			);
+			path = FaceTakePhoto;
+			sourceTree = "<group>";
+		};
+		5C57AC392282DAB800815D63 /* FMDBTool */ = {
+			isa = PBXGroup;
+			children = (
+				5C57AC3C2282DAD100815D63 /* BaseModel.h */,
+				5C57AC3A2282DAD000815D63 /* BaseModel.m */,
+				5C57AC3D2282DAD100815D63 /* XYDatabase.h */,
+				5C57AC3B2282DAD100815D63 /* XYDatabase.m */,
+			);
+			path = FMDBTool;
+			sourceTree = "<group>";
+		};
+		5C57B46F2226577700688DCF /* ZhiZhiWu */ = {
+			isa = PBXGroup;
+			children = (
+				5C57B473222657AD00688DCF /* Controller */,
+				5C57B4702226578C00688DCF /* SDK */,
+			);
+			path = ZhiZhiWu;
+			sourceTree = "<group>";
+		};
+		5C57B4702226578C00688DCF /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5C57B471222657A800688DCF /* ZZWBasePhoneSDK.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		5C57B473222657AD00688DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C57B474222657C300688DCF /* ZZWViewController.h */,
+				5C57B475222657C300688DCF /* ZZWViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C5B93D4223A43AB007EF1E4 /* RuntimProperty */ = {
+			isa = PBXGroup;
+			children = (
+				5C5B93D5223A443A007EF1E4 /* RuntimVC.h */,
+				5C5B93D6223A443A007EF1E4 /* RuntimVC.m */,
+			);
+			path = RuntimProperty;
+			sourceTree = "<group>";
+		};
+		5C61DB0C2270118D00B2250F /* BaseWebView */ = {
+			isa = PBXGroup;
+			children = (
+				5CB0FF6222713BF50017A45E /* Resource */,
+				5C61DB132270128C00B2250F /* View */,
+				5C61DB10227011F700B2250F /* BaseWebView.h */,
+				5C61DB11227011F700B2250F /* BaseWebView.m */,
+				5C61DB142270138200B2250F /* BaseUIWebViewVC.h */,
+				5C61DB152270138200B2250F /* BaseUIWebViewVC.m */,
+				5CB0FF6822713D860017A45E /* BaseWKWebViewVC.h */,
+				5CB0FF6922713D860017A45E /* BaseWKWebViewVC.m */,
+			);
+			path = BaseWebView;
+			sourceTree = "<group>";
+		};
+		5C61DB132270128C00B2250F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C61DB0D227011AD00B2250F /* BaseUIWebView.h */,
+				5C61DB0E227011AD00B2250F /* BaseUIWebView.m */,
+				5CB0FF6B22713DB10017A45E /* BaseWKWebView.h */,
+				5CB0FF6C22713DB10017A45E /* BaseWKWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C6389F2229FF08B004F5689 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C6389F3229FF0B3004F5689 /* ZLJSelectedView.h */,
+				5C6389F4229FF0B3004F5689 /* ZLJSelectedView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C87930F22F1729800DBBE68 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5C87931522F1802F00DBBE68 /* XLForm */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		5C87931522F1802F00DBBE68 /* XLForm */ = {
+			isa = PBXGroup;
+			children = (
+				5C87931622F1802F00DBBE68 /* XLForm.bundle */,
+				5C87931822F1802F00DBBE68 /* XL */,
+			);
+			path = XLForm;
+			sourceTree = "<group>";
+		};
+		5C87931822F1802F00DBBE68 /* XL */ = {
+			isa = PBXGroup;
+			children = (
+				5C87931922F1802F00DBBE68 /* XLForm.h */,
+				5C87931A22F1802F00DBBE68 /* Cell */,
+				5C87933D22F1802F00DBBE68 /* Descriptors */,
+				5C87934522F1802F00DBBE68 /* Controllers */,
+				5C87934D22F1802F00DBBE68 /* XLForm.m */,
+				5C87934E22F1802F00DBBE68 /* Helpers */,
+				5C87936422F1802F00DBBE68 /* Validation */,
+			);
+			path = XL;
+			sourceTree = "<group>";
+		};
+		5C87931A22F1802F00DBBE68 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5C87931B22F1802F00DBBE68 /* XLFormTextViewCell.m */,
+				5C87931C22F1802F00DBBE68 /* XLFormInlineSelectorCell.h */,
+				5C87931D22F1802F00DBBE68 /* XLFormStepCounterCell.m */,
+				5C87931E22F1802F00DBBE68 /* XLFormSegmentedCell.m */,
+				5C87931F22F1802F00DBBE68 /* XLFormCheckCell.m */,
+				5C87932022F1802F00DBBE68 /* XLFormButtonCell.m */,
+				5C87932122F1802F00DBBE68 /* XLFormDescriptorCell.h */,
+				5C87932222F1802F00DBBE68 /* XLFormPickerCell.h */,
+				5C87932322F1802F00DBBE68 /* XLFormInlineRowDescriptorCell.h */,
+				5C87932422F1802F00DBBE68 /* XLFormLeftRightSelectorCell.h */,
+				5C87932522F1802F00DBBE68 /* XLFormBaseCell.m */,
+				5C87932622F1802F00DBBE68 /* XLFormImageCell.h */,
+				5C87932722F1802F00DBBE68 /* XLFormSwitchCell.m */,
+				5C87932822F1802F00DBBE68 /* XLFormDatePickerCell.h */,
+				5C87932922F1802F00DBBE68 /* XLFormTextFieldCell.h */,
+				5C87932A22F1802F00DBBE68 /* XLFormSelectorCell.h */,
+				5C87932B22F1802F00DBBE68 /* XLFormDateCell.h */,
+				5C87932C22F1802F00DBBE68 /* XLFormSliderCell.m */,
+				5C87932D22F1802F00DBBE68 /* XLFormStepCounterCell.h */,
+				5C87932E22F1802F00DBBE68 /* XLFormInlineSelectorCell.m */,
+				5C87932F22F1802F00DBBE68 /* XLFormTextViewCell.h */,
+				5C87933022F1802F00DBBE68 /* XLFormButtonCell.h */,
+				5C87933122F1802F00DBBE68 /* XLFormCheckCell.h */,
+				5C87933222F1802F00DBBE68 /* XLFormSegmentedCell.h */,
+				5C87933322F1802F00DBBE68 /* XLFormImageCell.m */,
+				5C87933422F1802F00DBBE68 /* XLFormSwitchCell.h */,
+				5C87933522F1802F00DBBE68 /* XLFormLeftRightSelectorCell.m */,
+				5C87933622F1802F00DBBE68 /* XLFormBaseCell.h */,
+				5C87933722F1802F00DBBE68 /* XLFormPickerCell.m */,
+				5C87933822F1802F00DBBE68 /* XLFormSliderCell.h */,
+				5C87933922F1802F00DBBE68 /* XLFormDateCell.m */,
+				5C87933A22F1802F00DBBE68 /* XLFormSelectorCell.m */,
+				5C87933B22F1802F00DBBE68 /* XLFormTextFieldCell.m */,
+				5C87933C22F1802F00DBBE68 /* XLFormDatePickerCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5C87933D22F1802F00DBBE68 /* Descriptors */ = {
+			isa = PBXGroup;
+			children = (
+				5C87933E22F1802F00DBBE68 /* XLFormDescriptor.h */,
+				5C87933F22F1802F00DBBE68 /* XLFormRowDescriptor.h */,
+				5C87934022F1802F00DBBE68 /* XLFormDescriptorDelegate.h */,
+				5C87934122F1802F00DBBE68 /* XLFormSectionDescriptor.m */,
+				5C87934222F1802F00DBBE68 /* XLFormRowDescriptor.m */,
+				5C87934322F1802F00DBBE68 /* XLFormDescriptor.m */,
+				5C87934422F1802F00DBBE68 /* XLFormSectionDescriptor.h */,
+			);
+			path = Descriptors;
+			sourceTree = "<group>";
+		};
+		5C87934522F1802F00DBBE68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C87934722F1802F00DBBE68 /* XLFormOptionsObject.h */,
+				5C87934C22F1802F00DBBE68 /* XLFormOptionsObject.m */,
+				5C87934822F1802F00DBBE68 /* XLFormOptionsViewController.h */,
+				5C87934B22F1802F00DBBE68 /* XLFormOptionsViewController.m */,
+				5C87934922F1802F00DBBE68 /* XLFormRowDescriptorViewController.h */,
+				5C87934A22F1802F00DBBE68 /* XLFormViewController.h */,
+				5C87934622F1802F00DBBE68 /* XLFormViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5C87934E22F1802F00DBBE68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5C87934F22F1802F00DBBE68 /* NSObject+XLFormAdditions.m */,
+				5C87935022F1802F00DBBE68 /* NSPredicate+XLFormAdditions.m */,
+				5C87935122F1802F00DBBE68 /* NSExpression+XLFormAdditions.m */,
+				5C87935222F1802F00DBBE68 /* UIView+XLFormAdditions.h */,
+				5C87935322F1802F00DBBE68 /* NSArray+XLFormAdditions.h */,
+				5C87935422F1802F00DBBE68 /* NSString+XLFormAdditions.m */,
+				5C87935522F1802F00DBBE68 /* NSObject+XLFormAdditions.h */,
+				5C87935622F1802F00DBBE68 /* NSExpression+XLFormAdditions.h */,
+				5C87935722F1802F00DBBE68 /* NSPredicate+XLFormAdditions.h */,
+				5C87935822F1802F00DBBE68 /* Views */,
+				5C87936122F1802F00DBBE68 /* NSString+XLFormAdditions.h */,
+				5C87936222F1802F00DBBE68 /* NSArray+XLFormAdditions.m */,
+				5C87936322F1802F00DBBE68 /* UIView+XLFormAdditions.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5C87935822F1802F00DBBE68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C87935922F1802F00DBBE68 /* XLFormRightImageButton.m */,
+				5C87935A22F1802F00DBBE68 /* XLFormTextView.m */,
+				5C87935B22F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.m */,
+				5C87935C22F1802F00DBBE68 /* XLFormRightDetailCell.m */,
+				5C87935D22F1802F00DBBE68 /* XLFormTextView.h */,
+				5C87935E22F1802F00DBBE68 /* XLFormRightImageButton.h */,
+				5C87935F22F1802F00DBBE68 /* XLFormRightDetailCell.h */,
+				5C87936022F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C87936422F1802F00DBBE68 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				5C87936522F1802F00DBBE68 /* XLFormRegexValidator.m */,
+				5C87936622F1802F00DBBE68 /* XLFormValidator.h */,
+				5C87936722F1802F00DBBE68 /* XLFormValidationStatus.m */,
+				5C87936822F1802F00DBBE68 /* XLFormValidator.m */,
+				5C87936922F1802F00DBBE68 /* XLFormRegexValidator.h */,
+				5C87936A22F1802F00DBBE68 /* XLFormValidationStatus.h */,
+				5C87936B22F1802F00DBBE68 /* XLFormValidatorProtocol.h */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		5C87939222F1814900DBBE68 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				5C87939322F1839700DBBE68 /* VC */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		5C87939322F1839700DBBE68 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5C87939422F183C500DBBE68 /* ZLJFormViewController.h */,
+				5C87939522F183C500DBBE68 /* ZLJFormViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5C87A76B222525CE001DBC6C /* ZheXianTu */ = {
+			isa = PBXGroup;
+			children = (
+				5C6389F2229FF08B004F5689 /* View */,
+				5C2D4E5B222528BB002E33F5 /* BezierView */,
+				5C87A76C22252634001DBC6C /* BrokenLineVC.h */,
+				5C87A76D22252634001DBC6C /* BrokenLineVC.m */,
+			);
+			path = ZheXianTu;
+			sourceTree = "<group>";
+		};
+		5CAED302224F3FD400E66B86 /* LFCamera */ = {
+			isa = PBXGroup;
+			children = (
+				5CAED303224F3FD400E66B86 /* LFCameraResultView.h */,
+				5CAED305224F3FD400E66B86 /* LFCameraResultView.m */,
+				5CAED306224F3FD400E66B86 /* LFCamera.h */,
+				5CAED304224F3FD400E66B86 /* LFCamera.m */,
+			);
+			path = LFCamera;
+			sourceTree = "<group>";
+		};
+		5CB0FF6222713BF50017A45E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5CB0FF6322713BF50017A45E /* LoadFailWebView */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5CB0FF6322713BF50017A45E /* LoadFailWebView */ = {
+			isa = PBXGroup;
+			children = (
+				5CB0FF6422713BF50017A45E /* icon.png */,
+				5CB0FF6522713BF50017A45E /* load_fail.html */,
+			);
+			path = LoadFailWebView;
+			sourceTree = "<group>";
+		};
+		5CBD98E8223F8DEF000AC32A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5CBD98E9223F8DFD000AC32A /* ChartLine */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5CBD98E9223F8DFD000AC32A /* ChartLine */ = {
+			isa = PBXGroup;
+			children = (
+				5CBD98EB223F8E07000AC32A /* ZLJBezierCurveView.h */,
+				5CBD98EA223F8E07000AC32A /* ZLJBezierCurveView.m */,
+			);
+			path = ChartLine;
+			sourceTree = "<group>";
+		};
+		5CC1CE5222CCC1CF00E1637D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CC1CE5322CCC1E900E1637D /* ZLJDaiYanShouModel.h */,
+				5CC1CE5422CCC1E900E1637D /* ZLJDaiYanShouModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5CC659DF213F66B000AC4FF1 /* PureLayoutLearn */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +845,24 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5CCEA7BB227ED40000DF1B91 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5C57AC392282DAB800815D63 /* FMDBTool */,
+				5CCEA7BC227ED40E00DF1B91 /* ViewController */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5CCEA7BC227ED40E00DF1B91 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEA7BD227ED46100DF1B91 /* FMDBViewController.h */,
+				5CCEA7BE227ED46100DF1B91 /* FMDBViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		5CD8714F2123D89300ED29DE /* JsAndOC */ = {
@@ -342,6 +911,7 @@
 				3988F65720103C750013B09E /* Sources */,
 				3988F65820103C750013B09E /* Frameworks */,
 				3988F65920103C750013B09E /* Resources */,
+				5C57B479222657DC00688DCF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -411,6 +981,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3988F65A20103C750013B09E;
 					};
+					5CB0FF6E22714F450017A45E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 3988F65620103C750013B09E /* Build configuration list for PBXProject "ShoppingTestDemo" */;
@@ -429,6 +1003,7 @@
 				3988F65A20103C750013B09E /* ShoppingTestDemo */,
 				3988F67220103C750013B09E /* ShoppingTestDemoTests */,
 				3988F67D20103C750013B09E /* ShoppingTestDemoUITests */,
+				5CB0FF6E22714F450017A45E /* OCLint */,
 			);
 		};
 /* End PBXProject section */
@@ -438,9 +1013,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C87936C22F1802F00DBBE68 /* XLForm.bundle in Resources */,
 				3988F66B20103C750013B09E /* LaunchScreen.storyboard in Resources */,
+				5CB0FF6622713BF50017A45E /* icon.png in Resources */,
 				5CD871562123DB0B00ED29DE /* index.html in Resources */,
 				3988F66820103C750013B09E /* Assets.xcassets in Resources */,
+				5CB0FF6722713BF50017A45E /* load_fail.html in Resources */,
 				3988F66620103C750013B09E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +1040,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5CB0FF7222714F5B0017A45E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nchmod -R 777 $SRCROOT/oclint\n$SRCROOT/oclint/oclint_apply.sh\n#$SRCROOT/oclint/oclint.sh\n";
+		};
 		CC5611F66A916DAD4E0B8D1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -487,17 +1082,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB0FF6D22713DB10017A45E /* BaseWKWebView.m in Sources */,
+				5C87937B22F1802F00DBBE68 /* XLFormSelectorCell.m in Sources */,
+				5C3D0427224EF4DF00145B12 /* FaceTakePhotoVC.m in Sources */,
+				5CBD98EC223F8E07000AC32A /* ZLJBezierCurveView.m in Sources */,
+				5C87937522F1802F00DBBE68 /* XLFormSliderCell.m in Sources */,
 				3988F66320103C750013B09E /* ViewController.m in Sources */,
+				5C87937022F1802F00DBBE68 /* XLFormSegmentedCell.m in Sources */,
 				5CC1D8FB2175863C00FECD5B /* ZLJViewController.m in Sources */,
 				5CD871522123D90A00ED29DE /* JsOCViewController.m in Sources */,
+				5C87939622F183C500DBBE68 /* ZLJFormViewController.m in Sources */,
 				5C006AFE2148F5DA0074014C /* WIFIMessageViewController.m in Sources */,
+				5C87937A22F1802F00DBBE68 /* XLFormDateCell.m in Sources */,
+				5C87937622F1802F00DBBE68 /* XLFormInlineSelectorCell.m in Sources */,
+				5CCEA7BF227ED46100DF1B91 /* FMDBViewController.m in Sources */,
+				5C87937122F1802F00DBBE68 /* XLFormCheckCell.m in Sources */,
+				5CAED307224F3FD400E66B86 /* LFCamera.m in Sources */,
+				5C87938F22F1802F00DBBE68 /* XLFormRegexValidator.m in Sources */,
+				5C87938922F1802F00DBBE68 /* XLFormRightImageButton.m in Sources */,
+				5C87937422F1802F00DBBE68 /* XLFormSwitchCell.m in Sources */,
+				5C61DB162270138200B2250F /* BaseUIWebViewVC.m in Sources */,
+				5C87938722F1802F00DBBE68 /* NSExpression+XLFormAdditions.m in Sources */,
+				5C61DB12227011F700B2250F /* BaseWebView.m in Sources */,
+				5C87938122F1802F00DBBE68 /* XLFormViewController.m in Sources */,
+				5CC1CE5522CCC1E900E1637D /* ZLJDaiYanShouModel.m in Sources */,
+				5C87938E22F1802F00DBBE68 /* UIView+XLFormAdditions.m in Sources */,
 				39DDAE4520118A5C00CBDCDE /* ShopModel.m in Sources */,
+				5C61DB0F227011AD00B2250F /* BaseUIWebView.m in Sources */,
+				5C87938B22F1802F00DBBE68 /* XLFormRowNavigationAccessoryView.m in Sources */,
 				5CC659E4213F670500AC4FF1 /* ZLJpureLayoutViewController.m in Sources */,
+				5C5B93D7223A443A007EF1E4 /* RuntimVC.m in Sources */,
+				5C87937D22F1802F00DBBE68 /* XLFormDatePickerCell.m in Sources */,
+				5C87938A22F1802F00DBBE68 /* XLFormTextView.m in Sources */,
+				5C87939122F1802F00DBBE68 /* XLFormValidator.m in Sources */,
+				5C57B476222657C300688DCF /* ZZWViewController.m in Sources */,
+				5C87938D22F1802F00DBBE68 /* NSArray+XLFormAdditions.m in Sources */,
+				5C87936E22F1802F00DBBE68 /* XLFormTextViewCell.m in Sources */,
+				5C87938422F1802F00DBBE68 /* XLForm.m in Sources */,
 				5C006AF92148F3070074014C /* SendMessageViewController.m in Sources */,
 				39DDAE4820118BBF00CBDCDE /* ShopCartTableViewCell.m in Sources */,
+				5C87938222F1802F00DBBE68 /* XLFormOptionsViewController.m in Sources */,
 				3988F66E20103C750013B09E /* main.m in Sources */,
+				5C87937822F1802F00DBBE68 /* XLFormLeftRightSelectorCell.m in Sources */,
+				5C87937E22F1802F00DBBE68 /* XLFormSectionDescriptor.m in Sources */,
+				5CAED308224F3FD400E66B86 /* LFCameraResultView.m in Sources */,
+				5C87936F22F1802F00DBBE68 /* XLFormStepCounterCell.m in Sources */,
+				5C87937222F1802F00DBBE68 /* XLFormButtonCell.m in Sources */,
+				5C6389F5229FF0B3004F5689 /* ZLJSelectedView.m in Sources */,
+				5C87938322F1802F00DBBE68 /* XLFormOptionsObject.m in Sources */,
+				5C57AC3E2282DAD100815D63 /* BaseModel.m in Sources */,
+				5C87938022F1802F00DBBE68 /* XLFormDescriptor.m in Sources */,
+				5C87937722F1802F00DBBE68 /* XLFormImageCell.m in Sources */,
+				5CB0FF6A22713D860017A45E /* BaseWKWebViewVC.m in Sources */,
+				5C57AC3F2282DAD100815D63 /* XYDatabase.m in Sources */,
 				5C08B866214F483300A638DB /* WebCacheViewController.m in Sources */,
 				3988F66020103C750013B09E /* AppDelegate.m in Sources */,
+				5C87938622F1802F00DBBE68 /* NSPredicate+XLFormAdditions.m in Sources */,
+				5C2D4E5E222528D8002E33F5 /* BezierCurveView.m in Sources */,
+				5C87937F22F1802F00DBBE68 /* XLFormRowDescriptor.m in Sources */,
+				5C87A76E22252634001DBC6C /* BrokenLineVC.m in Sources */,
+				5C87937C22F1802F00DBBE68 /* XLFormTextFieldCell.m in Sources */,
+				5C87939022F1802F00DBBE68 /* XLFormValidationStatus.m in Sources */,
+				5C87938C22F1802F00DBBE68 /* XLFormRightDetailCell.m in Sources */,
+				5C87937922F1802F00DBBE68 /* XLFormPickerCell.m in Sources */,
+				5C87938522F1802F00DBBE68 /* NSObject+XLFormAdditions.m in Sources */,
+				5C87937322F1802F00DBBE68 /* XLFormBaseCell.m in Sources */,
+				5C87938822F1802F00DBBE68 /* NSString+XLFormAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,14 +1313,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T556TVT3W8;
+				DEVELOPMENT_TEAM = 5776J2Q375;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZhiZhiWu/SDK",
+					"$(PROJECT_DIR)/Vendor/UFKit",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = ShoppingTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveyou.ShoppingTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -681,14 +1339,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T556TVT3W8;
+				DEVELOPMENT_TEAM = 5776J2Q375;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZhiZhiWu/SDK",
+					"$(PROJECT_DIR)/Vendor/UFKit",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = ShoppingTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveyou.ShoppingTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -746,6 +1412,24 @@
 			};
 			name = Release;
 		};
+		5CB0FF6F22714F450017A45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776J2Q375;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CB0FF7022714F450017A45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776J2Q375;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -781,6 +1465,15 @@
 			buildConfigurations = (
 				3988F68E20103C760013B09E /* Debug */,
 				3988F68F20103C760013B09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB0FF7122714F450017A45E /* Build configuration list for PBXAggregateTarget "OCLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB0FF6F22714F450017A45E /* Debug */,
+				5CB0FF7022714F450017A45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
